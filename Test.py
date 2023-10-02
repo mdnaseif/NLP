@@ -4,7 +4,7 @@ penup()
 goto(0, 300)  # Adjust the text position
 pendown()
 color('pink ')
-write("Thank You For Listening", align="center", font=("Arial", 14, "bold"))
+write("Thank You For hearing", align="center", font=("Arial", 14, "bold"))
 
 def heart(k):
     return 15*math.sin(k)**3
